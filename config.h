@@ -1,0 +1,10 @@
+const char* WIFI_SSID = "pugnet lite";
+const char* WIFI_PASSWORD = "arfarfarf";
+const char* HOSTNAME = "bathroom_sensor";
+const char* MQTT_SERVER = "192.168.42.5";
+const char* MQTT_USERNAME = "iot";
+const char* MQTT_PASSWORD = "EPbWJv3AsAbY4C";
+const long MOTION_REPORT_INT_MS = 10 * 1000; // 10 seconds
+const long TEMP_REPORT_INT_MS = 30 * 1000; // 30 seconds
+const char* PIR_STATE_TOPIC = "home/bathroom/motion-sensor";
+const char* TEMP_STATE_TOPIC = "home/bathroom/temperature";
